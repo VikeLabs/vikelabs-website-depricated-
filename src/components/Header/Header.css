@@ -1,0 +1,15 @@
+#header {
+    text-align: center;
+}
+
+img {
+    width: 180px;
+    height: 150px;
+}
+
+#logo-bg{
+    background-color: #44CFCF;
+    border-radius: 28px;
+    width: 200px;
+    height: 100%;
+}
