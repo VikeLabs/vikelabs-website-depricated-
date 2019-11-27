@@ -1,11 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Project(props) {
+export function Project(props) {
   return (
-    <div className="project-container content">
+    <Link to={`/project/${props.id}`} className="project-container content">
       {props.name}
-    </div>
+    </Link>
   );
 }
-
-export default Project;
