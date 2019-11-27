@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "vikelabs-website",
+  "homepage": "http://vikelabs.github.io/vikelabs-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -28,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
