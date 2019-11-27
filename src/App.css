@@ -1,22 +1,42 @@
-.App {
-  text-align: center;
+/*** APP ***/
+.app-logo {
+  height: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
+.content {
+  background-color: lightgray;
+  margin: 24px 0px;
+  padding: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
+  padding: 24px 36px;
+}
+
+/*** HEADER ***/
+
+.app-header {
+  background-color: gray;
+  padding: 12px;
+}
+
+/*** ABOUT ***/
+
+.about-container {
+  min-height: 200px;
+}
+
+/*** SOCIAL MEDIA ***/
+
+/*** PROJECTS ***/
+
+.project-container {
+  min-height: 200px;
+  width: 29%;
+}
+
+.projects-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
