@@ -10,7 +10,7 @@
 }
 
 .main-container {
-  padding: 24px 36px;
+  padding: 24px 72px;
 }
 
 /*** HEADER ***/
@@ -31,7 +31,9 @@
 /*** PROJECTS ***/
 
 .project-container {
+  color: black;
   min-height: 200px;
+  text-decoration: none;
   width: 29%;
 }
 
@@ -39,4 +41,26 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.project-name {
+  width: 50%;
+}
+
+.project-about {
+  min-height: 64px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px 24px;
+}
+
+.progress, .tech-stack {
+  min-height: 64px;
+}
+
+.team-member {
+  min-height: 128px
 }

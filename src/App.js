@@ -1,21 +1,19 @@
 import React from "react";
 import "./App.css";
-import { projects } from './assets/manifest';
 import Header from "./components/Header/Header";
-import About from "./components/About/About";
-import SocialMedia from "./components/SocialMedia/SocialMedia";
-import Projects from "./components/Projects/Projects";
+import HomePage from "./components/HomePage/HomePage";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ProjectPage from "./components/ProjectPage/ProjectPage";
 
 function App() {
   return (
-    <React.Fragment>
+    <Router>
       <Header />
-      <div className="main-container">
-        <About />
-        <SocialMedia />
-        <Projects projects={projects} />
-      </div>
-    </React.Fragment>
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/project/:id' component={ProjectPage} />
+      </Switch>
+    </Router>
   );
 }
 
