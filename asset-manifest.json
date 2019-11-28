@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vikelabs-website/static/css/main.76ea98ea.chunk.css",
+    "main.js": "/vikelabs-website/static/js/main.14c94d54.chunk.js",
+    "main.js.map": "/vikelabs-website/static/js/main.14c94d54.chunk.js.map",
+    "runtime-main.js": "/vikelabs-website/static/js/runtime-main.e2a59437.js",
+    "runtime-main.js.map": "/vikelabs-website/static/js/runtime-main.e2a59437.js.map",
+    "static/js/2.ab355a82.chunk.js": "/vikelabs-website/static/js/2.ab355a82.chunk.js",
+    "static/js/2.ab355a82.chunk.js.map": "/vikelabs-website/static/js/2.ab355a82.chunk.js.map",
+    "index.html": "/vikelabs-website/index.html",
+    "precache-manifest.501f8f50e713fc690b08e0fba11969ab.js": "/vikelabs-website/precache-manifest.501f8f50e713fc690b08e0fba11969ab.js",
+    "service-worker.js": "/vikelabs-website/service-worker.js",
+    "static/css/main.76ea98ea.chunk.css.map": "/vikelabs-website/static/css/main.76ea98ea.chunk.css.map",
+    "static/media/logo.png": "/vikelabs-website/static/media/logo.cc9e88bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2a59437.js",
+    "static/js/2.ab355a82.chunk.js",
+    "static/css/main.76ea98ea.chunk.css",
+    "static/js/main.14c94d54.chunk.js"
+  ]
+}
